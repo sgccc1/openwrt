@@ -18,7 +18,7 @@ on:
 
 env:
   REPO_URL: https://github.com/sgccc1/openwrt1
-  REPO_BRANCH: mail
+  REPO_BRANCH: main
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: 19.7.config
   DIY_P1_SH: diy-part1.sh
