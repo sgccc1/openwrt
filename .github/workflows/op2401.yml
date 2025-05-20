@@ -10,7 +10,7 @@
 # See /LICENSE for more information.
 #
 
-name: OpenWrt-19.7
+name: OpenWrt-24.01
 
 on:
   repository_dispatch:
