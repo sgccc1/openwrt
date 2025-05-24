@@ -17,7 +17,7 @@ on:
   workflow_dispatch:
 
 env:
-  REPO_URL: https://github.com/sgccc1/openwrt1
+  REPO_URL: https://github.com/sgccc1/openwrt2
   REPO_BRANCH: main
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: 24x86.config
