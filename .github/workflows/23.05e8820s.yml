@@ -10,14 +10,14 @@
 # See /LICENSE for more information.
 #
 
-name: OpenWrt-23.05e8820s
+name: OpenWrt-24.10.1e8820s
 
 on:
   repository_dispatch:
   workflow_dispatch:
 
 env:
-  REPO_URL: https://github.com/sgccc1/openwrt23.05.5
+  REPO_URL: https://github.com/sgccc1/openwrt24.10.1
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: 23.05.5e8820s.config
@@ -30,7 +30,7 @@ env:
 
 jobs:
   build:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-22.04
 
     steps:
     - name: Checkout
