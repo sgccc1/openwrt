@@ -10,7 +10,7 @@
 # See /LICENSE for more information.
 #
 
-name: OpenWrt-24.10.1x86
+name: ledex86-32
 
 on:
   repository_dispatch:
